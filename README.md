@@ -1,6 +1,6 @@
 # MyBatisFrame
 ## 手动实现MyBatis框架
-创建库springtest，执行查询
+创建库mybatistest，执行查询
 ```SQL
 DROP TABLE IF EXISTS `user`;
 
@@ -23,3 +23,4 @@ values
 (48,'小马宝莉','2018-03-08 11:44:00','女','湖南');
 ```
 **idea新建Maven工程，导入pom、复制src下的main和test文件夹**
+如果你用的MySQL8则自行修改db.properties和pom
